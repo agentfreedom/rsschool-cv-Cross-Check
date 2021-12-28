@@ -167,3 +167,19 @@ body {
 .data__item--span {
     font-weight: 900;
 }
+
+.contacts__link,
+.link {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(255 43 74);
+    transition: all 0.5s ease;
+}
+.contacts__link:hover,
+.link:hover {
+    color: #164d7a;
+    text-decoration: underline;
+}
+.summary {
+    font-style: italic;
+}
