@@ -183,3 +183,8 @@ body {
 .summary {
     font-style: italic;
 }
+
+.span__data {
+    font-size: 1.1em;
+    font-style: italic;
+}
