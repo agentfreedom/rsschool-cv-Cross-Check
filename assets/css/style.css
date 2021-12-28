@@ -192,3 +192,41 @@ body {
     font-size: 1.1em;
     font-style: italic;
 }
+
+.footer__wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+
+
+.copyright {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: rgb(0, 0, 0);
+}
+.copyright__text {
+    margin: 0;
+    font-size: 16px;
+    /* padding: 0 15px; */
+}
+.copyright__img {
+    padding-top: 5px;
+    padding-right: 2px;
+    width: 16px;
+    height: 17px;
+		align-self: center;
+}
+.rss__img {
+	width: 70px;
+	align-self: center;
+}
+
+.github__img {
+	width: 70px;
+	align-self: center;
+}
