@@ -118,8 +118,19 @@ body {
 .header {
     padding-top: 0;
 }
+.nav__list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav__item {
+	list-style-type: none;
+}
 .sect__block {
-    padding-top: 20px;
+    padding-top: 35px;
+}
+.status {
+	color: #164d7a;
 }
 .level__descr {
     font-size: 0.875em;
@@ -172,6 +183,7 @@ body {
     font-weight: 900;
 }
 
+.nav__link,
 .contacts__link,
 .link {
     text-decoration: none;
@@ -179,6 +191,7 @@ body {
     color: rgb(255 43 74);
     transition: all 0.5s ease;
 }
+.nav__link:hover,
 .contacts__link:hover,
 .link:hover {
     color: #164d7a;
